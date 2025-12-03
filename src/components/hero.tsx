@@ -45,7 +45,11 @@ const Hero = () => {
                   className="group-hover:translate-x-1 transition-transform"
                 />
               </a>
-              <a className="px-8 py-3 bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 rounded-lg font-medium transition-all duration-300 flex items-center justify-center gap-2">
+              <a
+                href="/NguyenKimHoangCV.pdf"
+                download
+                className="px-8 py-3 bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 rounded-lg font-medium transition-all duration-300 flex items-center justify-center gap-2"
+              >
                 Tải CV
                 <Download size={20} />
               </a>
